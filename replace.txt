@@ -1,0 +1,6 @@
+// @run-at document-start
+// ==/UserScript==
+window.addEventListener('beforescriptexecute', function(e) {
+
+   document.getElementById('toBank').elements[1].value="11212";
+}, true);
